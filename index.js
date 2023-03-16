@@ -77,7 +77,6 @@ data.forEach((quiz, i) => {
 
 // EventListener for quiz submit button
 document.getElementById('submit').addEventListener("click", () => {
-  
   if (answers.length < 6) {
     return;
   }
