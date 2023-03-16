@@ -8,9 +8,16 @@
     <!-- bootstrap css file  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<body>
-    <div class="container">
-        <div>
+<body class="container">
+  <!-- header section start-->
+  <header class="bg-secondary bg-gradient py-1">
+    <h1 class="text-center text-white">Simple Question, Answer & Function Description</h1>
+ </header>
+  <!-- header section end-->
+ <main>
+  <!-- question and answer section start -->
+    <section>
+        <div class="mt-4">
             <h4>Question-1: What are the Differences between <span class="fw-bold">map(), filter(), forEach() and find()</span> method in javascript?</h4>
             <h4><span class="text-2xl font-semibold">Answer:</span></h4>
             <div class="table-responsive">
@@ -65,7 +72,7 @@
                   Session storage data will expire as soon as you close the tab you are on. This is because session storage is tied to a particular session which is equivalent to a tab so once you close your tab you are closing your session thus all session storage is cleared.
                 </td>
                 <td>
-                  Cookies are unique in that you can set the expiration date for them manually. This gives you complete control over how long cookies last for.
+                  Cookies are designed for smaller amounts of data and can be accessed by any website that has access to them. Cookies can be persistent or temporary, depending on how they are set up by the developer.
                 </td>
               </tr>
               <!-- <tr class="align-bottom">
@@ -83,7 +90,15 @@
           The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes it to the Call Stack, waits for the Call Stack to be clear again, and repeats the same process.
         </p>
        </div>
-     </div>
+    </section>
+    <!-- question and answer section end -->
+    <!-- function section start -->
+    <section>
+
+    </section>
+     <!-- function section end -->
+ </main>
+    
 
        <!-- bootstrap js file  -->
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
